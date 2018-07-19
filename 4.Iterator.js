@@ -39,3 +39,4 @@
  // 符合开闭原则，以后有新的上传方式，新写一个函数，用迭代器调用即可。
  var uploadObj = iteratorUploadObj( getActiveUploadObj, getFlashUploadObj, getFormUploadObj )
  console.log(uploadObj)
+ console.log('world')
